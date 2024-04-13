@@ -36,12 +36,12 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.admin',
     'django.contrib.staticfiles',
     'rest_framework',
     'items',
     'batches',
     'itemtypes',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
