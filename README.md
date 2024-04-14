@@ -18,28 +18,28 @@ These instructions will get you a copy of the project up and running on your loc
 
 First, clone the repository:
 
-\```bash
+```bash
 git clone https://github.com/Archulan/InventorySystem
 cd InventorySystem
-\```
+```
 
 Install the required packages:
 
-\```bash
+```bash
 pip install -r requirements.txt
-\```
+```
 
 Run the migrations:
 
-\```bash
+```bash
 python manage.py migrate
-\```
+```
 
 Start the development server:
 
-\```bash
+```bash
 python manage.py runserver
-\```
+```
 
 The server will start at `http://127.0.0.1:8000/`.
 
@@ -75,7 +75,7 @@ The server will start at `http://127.0.0.1:8000/`.
 
 #### Example Payload for Combined Data Submission
 
-\```json
+```json
 {
     "item_types": [
         {"type_name": "Electronics", "description": "All electronic devices"}
@@ -87,7 +87,7 @@ The server will start at `http://127.0.0.1:8000/`.
         {"batch_code": "SP1000", "date_received": "2024-04-13", "quantity": 100, "item": 1}
     ]
 }
-\```
+```
 
 ### Using Swagger API Documentation
 
